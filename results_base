@@ -1,1 +1,28 @@
+Welcome to the CBC MILP Solver 
+Version: 2.10.3 
+Build Date: Dec 15 2019 
 
+command line - C:\Users\jpdoy\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.9_qbz5n2kfra8p0\LocalCache\local-packages\Python39\site-packages\pulp\solverdir\cbc\win\64\cbc.exe C:\Users\jpdoy\AppData\Local\Temp\598b202a0eeb467da035f5210d2add1d-pulp.mps timeMode elapsed branch printingOptions all solution C:\Users\jpdoy\AppData\Local\Temp\598b202a0eeb467da035f5210d2add1d-pulp.sol (default strategy 1)
+At line 2 NAME          MODEL
+At line 3 ROWS
+At line 12 COLUMNS
+At line 48 RHS
+At line 56 BOUNDS
+At line 57 ENDATA
+Problem MODEL has 7 rows, 5 columns and 30 elements
+Coin0008I MODEL read with 0 errors
+Option for timeMode changed from cpu to elapsed
+Presolve 7 (0) rows, 5 (0) columns and 30 (0) elements
+0  Obj 0 Primal inf 836.7728 (6)
+4  Obj 66.379868
+Optimal - objective value 66.379868
+Optimal objective 66.37986775 - 4 iterations time 0.002
+Option for printingOptions changed from normal to all
+Total time (CPU seconds):       0.01   (Wallclock seconds):       0.01
+
+Chicken Breat = 23.86 servings
+Salmon = 0.0 servings
+White Rice = 58.23 servings
+Milk = 55.05 servings
+Spinach = 0.0 servings
+Lowest Cost = $66.38
