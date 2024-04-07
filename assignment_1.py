@@ -4,11 +4,11 @@ from pulp import LpProblem, LpMinimize, LpVariable, lpSum, value
 model = LpProblem("Minimize_Z", LpMinimize)
 
 # Define Decision Variables
-a = LpVariable('a', lowBound=0, cat='Continuous')
-b = LpVariable('b', lowBound=0, cat='Continuous')
-c = LpVariable('c', lowBound=0, cat='Continuous')
-d = LpVariable('d', lowBound=0, cat='Continuous')
-e = LpVariable('e', lowBound=0, cat='Continuous')
+a = LpVariable('a', lowBound=7, cat='Continuous')
+b = LpVariable('b', lowBound=7, cat='Continuous')
+c = LpVariable('c', lowBound=7, cat='Continuous')
+d = LpVariable('d', lowBound=7, cat='Continuous')
+e = LpVariable('e', lowBound=7, cat='Continuous')
 
 # Define Objective Function
 model += 0.74 * a + 2.83 * b + 0.09 * c + 0.79 * d + 1.00 * e
